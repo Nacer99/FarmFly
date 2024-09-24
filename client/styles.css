@@ -1,0 +1,290 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f6fa;
+  color: #333;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #003580;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+header nav {
+  margin-top: 1rem;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+header nav a:hover {
+  background-color: #00224f;
+}
+
+.search-container {
+  background-color: #003580;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #005999;
+}
+
+.farm-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.farm-card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.farm-card:hover {
+  transform: translateY(-5px);
+}
+
+.farm-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.farm-info {
+  padding: 15px;
+}
+
+.farm-info h2, .farm-info h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.view-deal {
+  display: inline-block;
+  background-color: #0071c2;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.view-deal:hover {
+  background-color: #005999;
+}
+
+.farm-details {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.farm-images {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.farm-images img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.meal-row {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #005999;
+}
+
+.booking-confirmation {
+  background-color: #e6ffe6;
+  border: 1px solid #4CAF50;
+  color: #4CAF50;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.booking-confirmation a {
+  color: #0071c2;
+  text-decoration: none;
+}
+
+.booking-confirmation a:hover {
+  text-decoration: underline;
+}
+
+.featured-farms {
+  margin-top: 2rem;
+}
+
+.featured-farms h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.farm-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.farm-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.farm-form h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.farm-form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.image-upload {
+  margin-bottom: 10px;
+}
+
+.uploaded-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.uploaded-image-preview {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.meal-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.error {
+  color: #d32f2f;
+  background-color: #fde8e8;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .farm-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .search-box {
+    flex-direction: column;
+  }
+
+  .search-input,
+  .search-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .farm-list {
+    grid-template-columns: 1fr;
+  }
+
+  .farm-images {
+    flex-direction: column;
+  }
+
+  .farm-images img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
