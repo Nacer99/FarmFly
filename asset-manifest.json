@@ -1,10 +1,13 @@
 {
   "files": {
+    "main.css": "/FarmFly/static/css/main.8e29fa9a.css",
     "main.js": "/FarmFly/static/js/main.d4cb9f32.js",
     "index.html": "/FarmFly/index.html",
+    "main.8e29fa9a.css.map": "/FarmFly/static/css/main.8e29fa9a.css.map",
     "main.d4cb9f32.js.map": "/FarmFly/static/js/main.d4cb9f32.js.map"
   },
   "entrypoints": [
+    "static/css/main.8e29fa9a.css",
     "static/js/main.d4cb9f32.js"
   ]
 }
