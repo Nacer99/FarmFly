@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.d4cb9f32.js",
-    "index.html": "/index.html",
-    "main.d4cb9f32.js.map": "/static/js/main.d4cb9f32.js.map"
+    "main.js": "/FarmFly/static/js/main.d4cb9f32.js",
+    "index.html": "/FarmFly/index.html",
+    "main.d4cb9f32.js.map": "/FarmFly/static/js/main.d4cb9f32.js.map"
   },
   "entrypoints": [
     "static/js/main.d4cb9f32.js"
