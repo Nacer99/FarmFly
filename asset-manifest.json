@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tourist-farm-booking/static/css/main.fb83bc96.css",
-    "main.js": "/tourist-farm-booking/static/js/main.a78d52cb.js",
-    "static/js/453.5042d685.chunk.js": "/tourist-farm-booking/static/js/453.5042d685.chunk.js",
-    "index.html": "/tourist-farm-booking/index.html",
-    "main.fb83bc96.css.map": "/tourist-farm-booking/static/css/main.fb83bc96.css.map",
-    "main.a78d52cb.js.map": "/tourist-farm-booking/static/js/main.a78d52cb.js.map",
-    "453.5042d685.chunk.js.map": "/tourist-farm-booking/static/js/453.5042d685.chunk.js.map"
+    "main.css": "/FarmFly/static/css/main.fb83bc96.css",
+    "main.js": "/FarmFly/static/js/main.c609d055.js",
+    "static/js/453.5042d685.chunk.js": "/FarmFly/static/js/453.5042d685.chunk.js",
+    "index.html": "/FarmFly/index.html",
+    "main.fb83bc96.css.map": "/FarmFly/static/css/main.fb83bc96.css.map",
+    "main.c609d055.js.map": "/FarmFly/static/js/main.c609d055.js.map",
+    "453.5042d685.chunk.js.map": "/FarmFly/static/js/453.5042d685.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb83bc96.css",
-    "static/js/main.a78d52cb.js"
+    "static/js/main.c609d055.js"
   ]
 }
